@@ -5,7 +5,7 @@ let variable = "Hello"
 variable = "string"
 
 //we cannot re declare a number if a variable is a string already, but in js we can do this
-variable = 28;
+// variable = 28;
 
 
 //we can explicitly provide types in TS
@@ -50,5 +50,21 @@ let testStringArray : string[]; //only string array
 testStringArray =["hello", "table", "chair"]
 
 let testNumberArray: number[]; //only number array
-testNumberArray = ["hello", "table"];
+// testNumberArray = ["hello", "table"];
 testNumberArray = [1,2,3,4]
+
+//Union arrays
+
+let testNumberorStringArray: (number | string) []
+testNumberorStringArray = ["name", 23, "hi"]
+
+//OBJECTS
+
+let user = {
+    username: "Kashif",
+    age: 23,
+    isAdmin: true
+}
+
+user.age = 22;
+user.age = "twenty two"; //this cannot happen because it is defined as a number, but this is possible in Javascript
