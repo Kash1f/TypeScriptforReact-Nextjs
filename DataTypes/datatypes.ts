@@ -22,6 +22,23 @@ console.log(ageWithType);
 let testStringorNumber: string| number;
 
 testStringorNumber = "name";
-
 testStringorNumber = 28;
+// testStringorNumber = [];
+
+//Array
+
+let arrayNames = ["ahmed", "hassan", "kashif"]
+console.log(arrayNames);
+
+arrayNames.push("ahsan")
+console.log(arrayNames);
+
+// arrayNames.push(28); numbers are not pushed to an array with strings
+
+let arrayNumbers = [1,2,3,4,5]
+arrayNumbers.push(6)
+console.log(arrayNumbers);
+
+// arrayNumbers.push("string"): strings are not pushed to an array with numbers
+
 
