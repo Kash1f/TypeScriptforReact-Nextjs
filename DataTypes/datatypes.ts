@@ -68,3 +68,17 @@ let user = {
 
 user.age = 22;
 user.age = "twenty two"; //this cannot happen because it is defined as a number, but this is possible in Javascript
+user.isAdmin= "string"
+
+let userObj: {
+    username: string;
+    age: number
+    isAdmin: boolean;
+}
+
+userObj = {
+    username: "john",
+    age: 23,
+    isAdmin: true,
+    //phone: "+1234567"
+}
