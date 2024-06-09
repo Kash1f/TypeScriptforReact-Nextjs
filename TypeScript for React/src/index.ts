@@ -18,6 +18,15 @@ const user: {
     name:'John'
 }
 
+//Functions
+
+function addNum(x: number, y: number): number{
+    return x + y
+}
+
+console.log(addNum(1,4));
+
+
 //Type Assertion
 
 let cid: any = 1
