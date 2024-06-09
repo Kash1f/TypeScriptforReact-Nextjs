@@ -9,7 +9,7 @@ let ids = [1, 2, 3];
 let uid;
 uid = '22';
 // uid = "Hello"
-//Enums: Enums allow us to define a set of named constants either numeric or string
+//Enums: Enums allow us to define a set of named constants either numeric or string.  0,1,2,3,4 by default
 var Direction1;
 (function (Direction1) {
     Direction1[Direction1["Up"] = 0] = "Up";

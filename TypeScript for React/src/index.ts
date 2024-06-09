@@ -8,12 +8,23 @@ let abc: any = "Hello";
 let ids: number[] = [1,2,3]
 
 
+//Objects
+
+const user: {
+    id: number,
+    name:string
+} = {
+    id:1,
+    name:'John'
+}
+
+
 //Union : can hold multiple types
 let uid: string|number
 uid = '22'
 // uid = "Hello"
 
-//Enums: Enums allow us to define a set of named constants either numeric or string
+//Enums: Enums allow us to define a set of named constants either numeric or string.  0,1,2,3,4 by default
 
 enum Direction1 {
     Up,
