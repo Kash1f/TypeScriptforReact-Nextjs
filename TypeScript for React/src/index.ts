@@ -26,6 +26,25 @@ function addNum(x: number, y: number): number{
 
 console.log(addNum(1,4));
 
+//Interfaces
+type User = {
+    id: number
+    name: string
+}
+
+const user1: User = {
+    id: 1,
+    name: 'John'
+}
+
+//Function Interfaces
+
+interface MathFunc{
+    (x: number, y:number) : number
+}
+
+const add: MathFunc = (x:number, y:number): number => x + y
+
 
 //Type Assertion
 
