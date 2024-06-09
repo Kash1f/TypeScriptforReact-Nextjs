@@ -18,6 +18,13 @@ const user: {
     name:'John'
 }
 
+//Type Assertion
+
+let cid: any = 1
+let customerId = <number>cid
+
+
+
 
 //Union : can hold multiple types
 let uid: string|number
