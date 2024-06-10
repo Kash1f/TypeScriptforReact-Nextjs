@@ -48,25 +48,30 @@ const add: MathFunc = (x:number, y:number): number => x + y
 //Classes
 
 class Person{
-    id: number
-    name: String
+    private id: number
+    private name: String
 
     //Classes can have methods which are functions in class
     //Constructor will run when an object is instantiated from that class
-    constructor(){
-        
+    constructor(id:number, name:String){
+        this.id = id;           //means the class that we are in or the current instance
+        this.name= name;    
     }
 }
 
 //this will create a new Person object in this variable called obj
-const obj = new Person();
+const obj = new Person(1,'Kashif');
 
 
 //Data Modifiers
 
 
 //Implenting Interface in class
-
+type User1 = {
+    id: number
+    name: string
+    age?: number
+}
 
 
 //Type Assertion
