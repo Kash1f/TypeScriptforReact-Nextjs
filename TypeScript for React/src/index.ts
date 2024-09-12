@@ -62,6 +62,10 @@ class Person{
 //this will create a new Person object in this variable called obj
 const obj = new Person(1,'Kashif');
 
+class Employee extends Person{
+    position: String
+    
+}
 
 //Data Modifiers
 
